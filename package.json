@@ -1,8 +1,8 @@
 {
-  "name": "wpp-iptv",
-  "version": "1.0.0",
+  "name": "name",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "cm": "cz",
     "build": "tsc -b",
