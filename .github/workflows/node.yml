@@ -22,12 +22,14 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.4.0
+        with:
+          version: 8
 
       - name: Install dependencies
         run: pnpm ci
 
       - name: Run linter
-        run: pnpm run lint
+        run: pnpm run eslint
 
       - name: Run tests
         run: pnpm run coverage
