@@ -6,7 +6,7 @@
   "scripts": {
     "cm": "cz",
     "build": "tsc -b",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --passWithNoTests",
     "eslint": "eslint src/**/*.ts",
     "eslint:fix": "pnpm run eslint -- --fix",
     "prettier": "prettier .",
